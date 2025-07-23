@@ -14,10 +14,24 @@ FrozenLake is a grid world where the agent must reach the goal without falling i
 
 ## 🚀 Project Features
 
-- ✅ Q-Learning implementation from scratch (no external RL libraries)
+- ✅ Q-Learning implementation 
 - 📊 Evaluation with average rewards
 - 🎥 Visualization of the agent’s path using a generated GIF
 - 📉 Exploration decay (epsilon-greedy strategy)
+
+## 🧠 Q-Learning Overview
+
+- **Episodes**: 20,000
+- **Max Steps per Episode**: 100
+- **Exploration Strategy**: ε-greedy
+- **Learning Rate (α)**: 0.7  
+- **Discount Rate (γ)**: 0.99  
+- **Exploration Decay**: From 1.0 to 0.0001
+The agent updates its Q-table as it learns the best actions for each state using the Bellman equation.
+
+## Install Dependencies:
+-pip install -r requirements.txt
+
 
   
   
